@@ -1,11 +1,11 @@
 const runGame = function() {
     // Your code additions go here
 
-    let team1 = prompt("Lakers:");
-    let score1 = parseInt(prompt("100 " + Lakers + ":"));
+    let team1 = prompt("Enter the name of the first team:");
+    let score1 = parseInt(prompt("Enter the score for " + team1 + ":"));
 
-    let team2 = prompt("Celtics:");
-    let score2 = parseInt(prompt("95 " + Celtics + ":"));
+    let team2 = prompt("Enter the name of the second team:");
+    let score2 = parseInt(prompt("Enter the score for " + team2 + ":"));
 
     let result;
 
